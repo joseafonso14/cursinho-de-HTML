@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header {
+    background-image: linear-gradient(to top, blue, lightblue);
+    font-size: 2em;
+    margin: 10px 50px 0px 50px;
+    padding: 5px;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+main {
+    background-color: yellowgreen;
+    text-align: center;
+    margin: 40px 60px 0px 60px;
+    padding: 20px;
+    border: 
+}

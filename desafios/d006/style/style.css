@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor01: #1C07E3;
+    --cor02: #072EED;
+    --cor03: #0560D6;
+    --cor04: #07A7ED;
+    --cor05: #07DAE3;
+}
+
+*  {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 6px;
+}
+
+body {
+    background-color: rgb(255, 244, 211);
+    min-width: 280px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+body p {
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 23px;
+    font-size: 1.2em;
+    font-family: monospace;
+    margin: 10px 0px;
+}
+
+
+header {
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #59D604, #318F10);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-radius: 6px 6px 0px 0px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+header h3 {
+    text-align: center;
+}
+
+header h3 a {
+    text-decoration: none;
+    color: rgb(13, 0, 128)
+    
+}
+
+header h3 a:hover {
+    text-decoration: underline;
+}
+
+header p {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: underline;
+    font-family: serif;
+}
+nav {
+    border-radius: 0px;
+    background-color: #66ff00;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    font-size: 1.3em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: rgba(224, 255, 51, 0.603);
+}
+
+
+main {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    margin: 10px 70px 10px 70px;
+    border-radius: 0px 0px 6px 6px;
+}
+
+main h1 {
+    background-image: linear-gradient(to right, #D6CC0B, transparent);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.192);
+    font-family: sans-serif;
+    font-size: 2em;
+    padding: 5px
+}
+
+main h2 {
+    background-image: linear-gradient(to right, #E6C400, transparent);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.199);
+    font-family: sans-serif;
+    font-size: 1.3em;
+    padding: 5px
+}
+
+main h3 {
+    background-image: linear-gradient(to right, #FFEA00, transparent);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.199);
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+main h3#margem {
+    margin-top: 10px;
+}
+
+article {
+    margin-top: 10px 0px 0px 0px;
+}
+
+
+img {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+img.py {
+    width: 50% ;
+}
+
+
+footer {
+    background-color: rgb(25, 25, 122);
+    padding: 7px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #D6CC0B
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
