@@ -1,2 +1,49 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor01: #C4CAF5;
+    --cor02: #5E69BD;
+    --cor03: #4F62F0;
+    --cor04: #3643A3;
+    --cor05: #252E70;
+}
+
+body {
+    background-color: rgb(203, 255, 238);
+}
+
+header {
+    background-image: linear-gradient(45deg, #3643A3, #5E69BD);
+    font-family: sans-serif;
+    border-radius: 6px;
+    padding: 4px;
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: bold;
+    margin: 5px 10px 30px 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.26);
+}
+
+header h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+header div#jose {
+    display: inline;
+    color: rgb(0, 255, 0)
+}
+
+header div#bia {
+    display: inline;
+    color: rgb(0, 255, 0)
+}      
