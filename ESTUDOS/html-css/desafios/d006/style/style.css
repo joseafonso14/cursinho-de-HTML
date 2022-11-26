@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(255, 244, 211);
     min-width: 280px;
     max-width: 1000px;
     margin: auto;
