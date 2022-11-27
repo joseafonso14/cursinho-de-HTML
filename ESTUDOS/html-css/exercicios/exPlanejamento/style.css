@@ -5,6 +5,8 @@
     padding: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 :root{
     --cor01: #C4CAF5;
     --cor02: #5E69BD;
@@ -14,7 +16,7 @@
 }
 
 body {
-    background-color: rgb(203, 255, 238);
+    background-color: rgba(255, 242, 242, 0.719);
 }
 
 header {
@@ -26,6 +28,7 @@ header {
     font-weight: bold;
     margin: 5px 10px 30px 10px;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.411);
 }
 
 header h1 {
@@ -47,3 +50,60 @@ header div#bia {
     display: inline;
     color: rgb(0, 255, 0)
 }      
+
+
+main {
+    margin: 0px 35px 15px 35px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 12px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.411);
+}
+
+main article {
+    line-height: 30px;
+}
+
+main article p {
+    text-align: justify;
+    text-indent: 24px;
+    font-family: 'Oswald', cursive;
+    font-size: small;
+    text-align: center;
+    
+}
+
+main article h2 {
+    font-size: 1.6em;
+    font-family: sans-serif;
+    text-decoration: underline;
+    background-color: #4F62F0;
+    color: rgb(23, 53, 30);
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.315);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
+footer {
+    margin: 0px 10px 0px 10px;
+    background-color: rgb(35, 35, 201);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer a {
+    color: rgb(115, 192, 0);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 4px;
+    padding: 5px;
+    border-radius: 8px;
+    transition-duration: .5s;
+}
+
