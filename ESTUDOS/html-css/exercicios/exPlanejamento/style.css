@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: rgba(255, 242, 242, 0.719);
+    background-color: rgba(255, 219, 219, 0.63);
 }
 
 header {
@@ -26,7 +26,9 @@ header {
     padding: 4px;
     color: rgba(255, 255, 255, 0.774);
     font-weight: bold;
-    margin: 5px 10px 30px 10px;
+
+    margin: 5px 80px 30px 80px;
+
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.26);
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.411);
 }
@@ -53,11 +55,12 @@ header div#bia {
 
 
 main {
-    margin: 0px 35px 15px 35px;
+    margin: 0px 200px 15px 200px;
     background-color: white;
     border-radius: 4px;
     padding: 12px;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.411);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.596);
+    border: 20px solid transparent;
 }
 
 main article {
@@ -68,9 +71,7 @@ main article p {
     text-align: justify;
     text-indent: 24px;
     font-family: 'Oswald', cursive;
-    font-size: small;
-    text-align: center;
-    
+    padding: 3px 0px 3px 0px;
 }
 
 main article h2 {
@@ -80,13 +81,16 @@ main article h2 {
     background-color: #4F62F0;
     color: rgb(23, 53, 30);
     box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.315);
-    padding: 3px;
+    padding: 7px 0px 7px 0px;
     border-radius: 3px;
+    text-align: center;
 }
 
 
 footer {
-    margin: 0px 10px 0px 10px;
+
+    margin: 5px 80px 30px 80px;
+    font-family: monospace;
     background-color: rgb(35, 35, 201);
     color: white;
     padding: 10px;
