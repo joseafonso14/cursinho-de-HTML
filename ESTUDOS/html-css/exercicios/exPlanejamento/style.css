@@ -53,9 +53,9 @@ header div#bia {
 
 
 main {
-    margin: 0px 200px 15px 200px;
+    margin: 3% 15% 3% 15%;
     background-color: white;
-    border-radius: 4px;
+    border-radius: 4px 4px 0px 0px;
     padding: 12px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.596);
     border: 20px solid transparent;
@@ -87,12 +87,12 @@ main article h2 {
 
 footer {
 
-    margin: 5px 80px 30px 80px;
+    margin: 0% 15% 3% 15%;
     font-family: monospace;
     background-color: rgb(35, 35, 201);
     color: white;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 footer a {
