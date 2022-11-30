@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <h2>Imagem 1</h2>
+    <p>Tente aumentar o tamanho do navegador para ver a mágica da imagem acontecendo</p>
+
+    <picture>
+        <source media="(max-width: 750)" srcset="fotos/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="fotos/foto-m.png" type="image/png">
+        <img src="fotos/foto-g.png" alt="flex image">
+    </picture>
+
+    <h2>SOM 1</h2>    
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/som.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>
+        VIDEO 1
+    </h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

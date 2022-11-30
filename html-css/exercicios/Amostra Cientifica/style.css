@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(253, 145, 106);
+    color: rgb(37, 36, 36);
+}
+
+.subtittle {
+    background-image: linear-gradient(to right, rgb(102, 102, 243), lightblue, rgb(59, 59, 59));
+    width: 7em;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 15px #19a7ff;
+}
+
+#page-title {
+    text-align: center;
+    background-color: rgb(187, 112, 25);
+    margin: auto;
+    border-radius: auto;
+}
