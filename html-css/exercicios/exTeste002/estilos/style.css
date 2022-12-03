@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to left, rgb(0 89 131), #3cd3ff, #ff5100, #ed1651, rgb(255 200 0));
+    background-size: 100%;
+}
+
+main h1 {
+    font-variant: small-caps;
+}
+
+header {
+    background-color: #ffca08;
+    border-radius: 4px;
+    margin: 10px 30px 10px 30px;
+
+}
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px;
+    font-size: 2.3em;
+    margin: 10px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.377);
+    text-decoration: underline;
+}
+header h3 {
+    font-size: 2em;
+    color: white; 
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.377);
+    text-decoration: underline;
+    text-align: center;
+}
+
+div.cont {
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 4px;
+}
+
+div.img {
+    background-image: url(../imagens/presentation.design.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+main {
+    padding: 20px 0px 20px 0px;
+}
+
+article {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.404);
+    border-radius: 30px;
+}
+
+article h1 {
+    font-family: cursive;
+    font-size: 2.7em;
+    background-color: #ffca08;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+article p {
+    text-indent: 40px;
+    font-family: monospace;
+    font-size: 2.2em;
+    text-align: justify;
+    line-height: 45px;
+}
+
+p.dsn {
+    text-indent: 65px;
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(96, 96, 226);
+}
