@@ -14,6 +14,8 @@
             width: 500px;
             height: 200px;
             border-collapse: collapse;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.356);
+            position: relative;
         }
         td, th {
             border: 1px solid black;
@@ -27,6 +29,11 @@
             font-size: 3em;
         }
 
+        thead th {
+            position: sticky;
+            top: 0;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -36,8 +43,29 @@
             font-weight: bold;
         }
 
+        tbody tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        tbody tr:nth-child(even) {
+            box-shadow:inset 1px 1px 8px rgba(0, 0, 0, 0.199);
+        }
+
         .num {
-            text-align: right;
+            text-align: center;
+        }
+
+        caption {
+            text-align: center;
+            background-color: lightgray;
+            border: solid 1px black;
+            margin-bottom: 1px;
+            border-radius: 3px 3px 0px 0px;
+            font-size: 1.4em;
+            font-weight: bold;
+            font-family: sans-serif;
+            padding: 10px;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.356);
         }
         
     </style>
@@ -53,6 +81,7 @@
         ANATOMIA PARA TABELAS GRANDES
 
         TABLE
+            CAPTION (legenda)
             THEAD
                 TR, TD, TH
             TBODY
@@ -61,10 +90,13 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>
+            Idade das pessoas que eu conheço em ordem crescente
+        </caption>
         <thead>
             <tr>
-                <th>Nome (completo)</th>
-                <th>Idade (anos)</th>
+                <th scope="col">Nome (completo)</th>
+                <th scope="col" style="width: 60px;">Idade (anos)</th>
             </tr>
         </thead>
         <tbody>
@@ -95,7 +127,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>
+                <th scope="row">
                     Total de Idades
                 </th>
                 <td class="num">
