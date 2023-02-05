@@ -1,3 +1,6 @@
 {
-    "livePreview.defaultPreviewPath": "c:\\Users\\josea\\OneDrive\\Documentos\\estudoscerto\\html\\html-css\\RPG\\OP - CATACLISMA\\história.html"
+    "livePreview.defaultPreviewPath": "c:\\Users\\josea\\OneDrive\\Documentos\\estudoscerto\\html\\html-css\\RPG\\OP - CATACLISMA\\história.html",
+    "editor.wordWrap": "on",
+    "html.format.wrapAttributes": "force-aligned",
+    "diffEditor.wordWrap": "on"
 }
